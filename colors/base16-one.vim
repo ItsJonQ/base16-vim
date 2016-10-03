@@ -29,6 +29,18 @@ let s:gui0D = "61afef"
 let s:gui0E = "c678dd"
 let s:gui0F = "be5046"
 
+
+if &background == "light"
+  let s:gui08 = "ca1343"
+  let s:gui09 = "d08770"
+  let s:gui0A = "e1ad52"
+  let s:gui0B = "199f4b"
+  let s:gui0C = "0184be"
+  let s:gui0D = "4078f2"
+  let s:gui0E = "a431c4"
+  let s:gui0F = "ca1343"
+endif
+
 " Terminal color definitions
 let s:cterm00 = "00"
 let s:cterm03 = "08"
