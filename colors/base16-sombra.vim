@@ -25,7 +25,7 @@ let s:gui09 = "f8f8fb"
 let s:gui0A = "f8f8fb"
 let s:gui0B = "f92672"
 let s:gui0C = "f8f8fb"
-let s:gui0D = "f8f8fb"
+let s:gui0D = "f92672"
 let s:gui0E = "f8f8fb"
 let s:gui0F = "f8f8fb"
 
