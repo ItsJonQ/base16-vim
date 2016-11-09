@@ -1,4 +1,4 @@
-" Base16 Duokai (https://github.com/chriskempson/base16)
+" Base16 Sombra (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,27 +7,28 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-duokai.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-sombra.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
-let s:gui00 = "282c34"
-let s:gui01 = "2c323c"
-let s:gui02 = "4f5b66"
-let s:gui03 = "65737e"
-let s:gui04 = "a7adba"
-let s:gui05 = "f8f8f2"
-let s:gui06 = "f5f4f1"
-let s:gui07 = "f9f8f5"
-let s:gui08 = "f92672"
-let s:gui09 = "d08770"
-let s:gui0A = "f0c674"
-let s:gui0B = "a6e22e"
-let s:gui0C = "a1efe4"
-let s:gui0D = "66d9ef"
-let s:gui0E = "ae81ff"
-let s:gui0F = "be5046"
+let s:gui00 = "141820"
+let s:gui01 = "181e28"
+let s:gui02 = "3b4752"
+let s:gui03 = "515f6a"
+let s:gui04 = "9399a6"
+let s:gui05 = "f8f8fb"
+let s:gui06 = "f5f5f6"
+let s:gui07 = "f9f9fb"
+let s:gui08 = "b3b3b6"
+let s:gui09 = "f8f8fb"
+let s:gui0A = "f8f8fb"
+let s:gui0B = "f92672"
+let s:gui0C = "f8f8fb"
+let s:gui0D = "f8f8fb"
+let s:gui0E = "f8f8fb"
+let s:gui0F = "f8f8fb"
+
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -59,7 +60,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-duokai"
+let g:colors_name = "base16-sombra"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr)
