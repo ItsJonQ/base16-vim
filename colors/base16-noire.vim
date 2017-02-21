@@ -20,10 +20,10 @@ let s:gui04 = "9399a6"
 let s:gui05 = "f8f8fb"
 let s:gui06 = "f5f5f6"
 let s:gui07 = "f9f9fb"
-let s:gui08 = "f8f8fb"
+let s:gui08 = "f92672"
 let s:gui09 = "f8f8fb"
 let s:gui0A = "f8f8fb"
-let s:gui0B = "f8f8fb"
+let s:gui0B = "a6e22e"
 let s:gui0C = "f8f8fb"
 let s:gui0D = "f8f8fb"
 let s:gui0E = "f8f8fb"
@@ -146,14 +146,14 @@ call <sid>hi("ErrorMsg",      s:gui08, s:gui00, s:cterm08, s:cterm00, "", "")
 call <sid>hi("Exception",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("FoldColumn",    s:gui0C, s:gui01, s:cterm0C, s:cterm01, "", "")
 call <sid>hi("Folded",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
-call <sid>hi("IncSearch",     s:gui01, s:gui09, s:cterm01, s:cterm09, "none", "")
+call <sid>hi("IncSearch",     s:gui01, s:gui0D, s:cterm01, s:cterm0D, "none", "")
 call <sid>hi("Italic",        "", "", "", "", "none", "")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("Search",        s:gui03, s:gui0A, s:cterm03, s:cterm0A,  "", "")
+call <sid>hi("Search",        s:gui01, s:gui0D, s:cterm01, s:cterm0D,  "", "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
@@ -176,7 +176,7 @@ call <sid>hi("CursorColumn",  "", s:gui01, "", s:cterm01, "none", "")
 call <sid>hi("CursorLine",    "", s:gui01, "", s:cterm01, "none", "")
 call <sid>hi("CursorLineNr",  s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("PMenu",         s:gui04, s:gui01, s:cterm04, s:cterm01, "none", "")
-call <sid>hi("PMenuSel",      s:gui01, s:gui04, s:cterm01, s:cterm04, "", "")
+call <sid>hi("PMenuSel",      s:gui01, s:gui0D, s:cterm01, s:cterm0D, "", "")
 call <sid>hi("TabLine",       s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
 call <sid>hi("TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
 call <sid>hi("TabLineSel",    s:gui0B, s:gui01, s:cterm0B, s:cterm01, "none", "")
