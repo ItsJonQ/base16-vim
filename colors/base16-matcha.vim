@@ -1,4 +1,4 @@
-" Base16 Green Tea (https://github.com/chriskempson/base16)
+" Base16 Matcha (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,7 +7,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-greentea.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-matcha.".&background.".sh"
   endif
 endif
 
@@ -18,18 +18,18 @@ let s:gui01 = "1e2323"
 
 let s:gui02 = "414646"
 let s:gui03 = "555a5a"
-let s:gui04 = "98c379"
-let s:gui05 = "98c379"
-let s:gui06 = "98c379"
-let s:gui07 = "98c379"
-let s:gui08 = "98c379"
-let s:gui09 = "98c379"
-let s:gui0A = "98c379"
-let s:gui0B = "98c379"
-let s:gui0C = "98c379"
-let s:gui0D = "98c379"
-let s:gui0E = "98c379"
-let s:gui0F = "98c379"
+let s:gui04 = "89e894"
+let s:gui05 = "89e894"
+let s:gui06 = "89e894"
+let s:gui07 = "89e894"
+let s:gui08 = "89e894"
+let s:gui09 = "89e894"
+let s:gui0A = "89e894"
+let s:gui0B = "89e894"
+let s:gui0C = "89e894"
+let s:gui0D = "89e894"
+let s:gui0E = "89e894"
+let s:gui0F = "89e894"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -61,7 +61,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-greentea"
+let g:colors_name = "base16-matcha"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
