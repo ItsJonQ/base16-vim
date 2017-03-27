@@ -155,7 +155,9 @@ call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("Search",        s:gui01, s:gui0D, s:cterm01, s:cterm0D,  "", "")
+
+call <sid>hi("Search",        s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
+
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
