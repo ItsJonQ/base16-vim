@@ -1,1 +1,1 @@
-cd ~/.vim/bundle/base16-vim && git pull
+git push && cd ~/.vim/bundle/base16-vim && git pull
