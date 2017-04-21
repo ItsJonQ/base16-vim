@@ -1,4 +1,4 @@
-" Base16 Monone (https://github.com/chriskempson/base16)
+" Base16 Drake (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,29 +7,29 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-monone.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-drake.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "282c34"
-let s:gui01 = "2c323c"
+let s:gui00 = "191e1e"
+let s:gui01 = "1e2323"
 
-let s:gui02 = "4f5b66"
-let s:gui03 = "65737e"
-let s:gui04 = "a7adba"
-let s:gui05 = "c0c5ce"
-let s:gui06 = "dfe1e8"
-let s:gui07 = "eff1f5"
-let s:gui08 = "e06c75"
-let s:gui09 = "eff1f5"
-let s:gui0A = "eff1f5"
-let s:gui0B = "98c379"
-let s:gui0C = "eff1f5"
-let s:gui0D = "eff1f5"
-let s:gui0E = "eff1f5"
-let s:gui0F = "eff1f5"
+let s:gui02 = "414646"
+let s:gui03 = "555a5a"
+let s:gui04 = "d2a0c8"
+let s:gui05 = "d2a0c8"
+let s:gui06 = "d2a0c8"
+let s:gui07 = "d2a0c8"
+let s:gui08 = "d2a0c8"
+let s:gui09 = "d2a0c8"
+let s:gui0A = "d2a0c8"
+let s:gui0B = "d2a0c8"
+let s:gui0C = "d2a0c8"
+let s:gui0D = "d2a0c8"
+let s:gui0E = "d2a0c8"
+let s:gui0F = "d2a0c8"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -61,7 +61,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-monone"
+let g:colors_name = "base16-drake"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
@@ -156,7 +156,7 @@ call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
 
-call <sid>hi("Search",        s:gui01, s:gui0D, s:cterm01, s:cterm0D,  "", "")
+call <sid>hi("Search",        s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
 
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
@@ -165,7 +165,7 @@ call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "", "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
 
-call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
+call <sid>hi("WildMenu",      s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
 
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
