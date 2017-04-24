@@ -14,10 +14,10 @@ endif
 " GUI color definitions
 
 let s:gui00 = "000000"
-let s:gui01 = "222222"
+let s:gui01 = "1c1c1c"
 
-let s:gui02 = "444444"
-let s:gui03 = "666666"
+let s:gui02 = "3c3c3c"
+let s:gui03 = "5c5c5c"
 let s:gui04 = "31f65c"
 let s:gui05 = "31f65c"
 let s:gui06 = "31f65c"
@@ -61,6 +61,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
+
 let g:colors_name = "base16-classic"
 
 " Highlighting function
