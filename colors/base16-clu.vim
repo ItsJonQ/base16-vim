@@ -15,6 +15,7 @@ endif
 
 let s:gui00 = "000000"
 let s:gui01 = "1c1c1c"
+let s:gui_split = "1c1c1c"
 
 let s:gui02 = "3c3c3c"
 let s:gui03 = "5c5c5c"
