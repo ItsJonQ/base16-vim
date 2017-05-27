@@ -12,10 +12,9 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-
 let s:gui00 = "191e1e"
-let s:gui01 = "1e2323"
-let s:gui_split = "1e2323"
+
+let s:gui01 = "191e1e"
 
 let s:gui02 = "414646"
 let s:gui03 = "555a5a"
@@ -177,8 +176,8 @@ call <sid>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 
-call <sid>hi("StatusLine",    s:gui04, s:gui_split, s:cterm04, s:cterm02, "none", "")
-call <sid>hi("StatusLineNC",  s:gui03, s:gui_split, s:cterm03, s:cterm01, "none", "")
+call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none", "")
+call <sid>hi("StatusLineNC",  s:gui03, s:gui02, s:cterm03, s:cterm01, "none", "")
 
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none", "")
 call <sid>hi("ColorColumn",   "", s:gui01, "", s:cterm01, "none", "")

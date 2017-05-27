@@ -12,10 +12,9 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-
 let s:gui00 = "141820"
+
 let s:gui01 = "181e28"
-let s:gui_split = "181e28"
 
 let s:gui02 = "3b4752"
 let s:gui03 = "515f6a"
