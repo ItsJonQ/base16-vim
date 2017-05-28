@@ -12,8 +12,8 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "2b303b"
 
+let s:gui00 = "2b303b"
 let s:gui01 = "343d46"
 
 let s:gui02 = "4f5b66"
