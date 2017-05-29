@@ -32,6 +32,10 @@ let s:gui0E = "ffffff"
 let s:gui0F = "ffffff"
 
 
+let s:gui_statusline = "127acb"
+let s:gui_statusline_text = "ffffff"
+let s:gui_statusline_nc_text = "81b2d2"
+
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -178,8 +182,8 @@ call <sid>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 
-call <sid>hi("StatusLine",    s:gui04, s:gui01, s:cterm04, s:cterm02, "none", "")
-call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
+call <sid>hi("StatusLine",    s:gui_statusline_text, s:gui_statusline, s:cterm04, s:cterm02, "none", "")
+call <sid>hi("StatusLineNC",  s:gui_statusline_nc_text, s:gui_statusline, s:cterm03, s:cterm01, "none", "")
 
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none", "")
 call <sid>hi("ColorColumn",   "", s:gui01, "", s:cterm01, "none", "")
@@ -323,5 +327,5 @@ delf <sid>gui
 delf <sid>cterm
 
 " Remove color variables
-unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F  s:gui_statusline s:gui_statusline_text s:gui_statusline_nc_text
+unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
