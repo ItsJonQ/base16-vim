@@ -23,13 +23,13 @@ let s:gui05 = "dddddd"
 let s:gui06 = "f3f3f3"
 let s:gui07 = "ffffff"
 let s:gui08 = "ffffff"
-let s:gui09 = "b5cea8"
+let s:gui09 = "ce9178"
 let s:gui0A = "ffffff"
 let s:gui0B = "d08770"
-let s:gui0C = "56b6c2"
-let s:gui0D = "61afef"
-let s:gui0E = "61afef"
-let s:gui0F = "61afef"
+let s:gui0C = "569cd6"
+let s:gui0D = "569cd6"
+let s:gui0E = "569cd6"
+let s:gui0F = "569cd6"
 
 
 
