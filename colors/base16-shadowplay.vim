@@ -31,6 +31,8 @@ let s:gui0D = "66d9ef"
 let s:gui0E = "ae81ff"
 let s:gui0F = "be5046"
 
+
+
 " Terminal color definitions
 let s:cterm00 = "00"
 let s:cterm03 = "08"
@@ -319,6 +321,12 @@ call <sid>hi("SpellRare",    "", s:gui00, "", s:cterm00, "undercurl", s:gui0E)
 delf <sid>hi
 delf <sid>gui
 delf <sid>cterm
+
+" Fix XML for JSX highlighting
+call <sid>hi("Tag",         s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlTag",      s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlTagName",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlEndTag",   s:gui0D, "", s:cterm0D, "", "", "")
 
 " Remove color variables
 unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F

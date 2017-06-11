@@ -322,6 +322,12 @@ delf <sid>hi
 delf <sid>gui
 delf <sid>cterm
 
+" Fix XML for JSX highlighting
+call <sid>hi("Tag",         s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlTag",      s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlTagName",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("xmlEndTag",   s:gui0D, "", s:cterm0D, "", "", "")
+
 " Remove color variables
 unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
