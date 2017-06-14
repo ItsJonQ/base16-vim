@@ -30,6 +30,15 @@ let s:gui0C = "56b6c2"
 let s:gui0D = "61afef"
 let s:gui0E = "c678dd"
 let s:gui0F = "be5046"
+" Light
+let s:gui08Dark = "b3565e"
+let s:gui09Dark = "a66c5a"
+let s:gui0ADark = "c09e5d"
+let s:gui0BDark = "7a9c61"
+let s:gui0CDark = "45929b"
+let s:gui0DDark = "4e8cbf"
+let s:gui0EDark = "9e60b1"
+let s:gui0FDark = "984038"
 
 
 
@@ -94,6 +103,7 @@ fun s:gui(color)
     return a:color
   endif
 
+  " Light
   if a:color == s:gui00
     return s:gui07
   elseif a:color == s:gui01
@@ -110,6 +120,22 @@ fun s:gui(color)
     return s:gui01
   elseif a:color == s:gui07
     return s:gui00
+  elseif a:color == s:gui08
+    return s:gui08Dark
+  elseif a:color == s:gui09
+    return s:gui09Dark
+  elseif a:color == s:gui0A
+    return s:gui0ADark
+  elseif a:color == s:gui0B
+    return s:gui0BDark
+  elseif a:color == s:gui0C
+    return s:gui0CDark
+  elseif a:color == s:gui0D
+    return s:gui0DDark
+  elseif a:color == s:gui0E
+    return s:gui0EDark
+  elseif a:color == s:gui0F
+    return s:gui0FDark
   endif
 
   return a:color
@@ -121,6 +147,7 @@ fun s:cterm(color)
     return a:color
   endif
 
+  " Light
   if a:color == s:cterm00
     return s:cterm07
   elseif a:color == s:cterm01
@@ -329,5 +356,5 @@ delf <sid>gui
 delf <sid>cterm
 
 " Remove color variables
-unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F
+unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F  s:gui08Dark  s:gui09Dark  s:gui0ADark  s:gui0BDark  s:gui0CDark  s:gui0DDark  s:gui0EDark  s:gui0FDark
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
