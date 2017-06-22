@@ -14,10 +14,10 @@ endif
 " GUI color definitions
 
 let s:gui00 = "000000"
-let s:gui01 = "252526"
+let s:gui01 = "1b1b1c"
 
-let s:gui02 = "333333"
-let s:gui03 = "555555"
+let s:gui02 = "292929"
+let s:gui03 = "4b4b4b"
 let s:gui04 = "bbbbbb"
 let s:gui05 = "dddddd"
 let s:gui06 = "f3f3f3"
