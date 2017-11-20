@@ -13,32 +13,32 @@ endif
 
 " GUI color definitions
 
-let s:gui00 = "141820"
-let s:gui01 = "181e28"
+let s:gui00 = "1e1e1e"
+let s:gui01 = "252526"
 
-let s:gui02 = "3b4752"
-let s:gui03 = "515f6a"
-let s:gui04 = "9399a6"
-let s:gui05 = "c0c5ce"
-let s:gui06 = "dfe1e8"
-let s:gui07 = "eff1f5"
-let s:gui08 = "eff1f5"
-let s:gui09 = "eff1f5"
-let s:gui0A = "eff1f5"
-let s:gui0B = "eff1f5"
-let s:gui0C = "eff1f5"
-let s:gui0D = "eff1f5"
-let s:gui0E = "eff1f5"
-let s:gui0F = "eff1f5"
+let s:gui02 = "333333"
+let s:gui03 = "555555"
+let s:gui04 = "bbbbbb"
+let s:gui05 = "dddddd"
+let s:gui06 = "f3f3f3"
+let s:gui07 = "ffffff"
+let s:gui08 = "e06c75"
+let s:gui09 = "d08770"
+let s:gui0A = "f0c674"
+let s:gui0B = "98c379"
+let s:gui0C = "56b6c2"
+let s:gui0D = "61afef"
+let s:gui0E = "c678dd"
+let s:gui0F = "be5046"
 " Light
-let s:gui08Dark = "bfc1c4"
-let s:gui09Dark = "bfc1c4"
-let s:gui0ADark = "bfc1c4"
-let s:gui0BDark = "bfc1c4"
-let s:gui0CDark = "bfc1c4"
-let s:gui0DDark = "bfc1c4"
-let s:gui0EDark = "bfc1c4"
-let s:gui0FDark = "bfc1c4"
+let s:gui08Dark = "b3565e"
+let s:gui09Dark = "a66c5a"
+let s:gui0ADark = "c09e5d"
+let s:gui0BDark = "7a9c61"
+let s:gui0CDark = "45929b"
+let s:gui0DDark = "4e8cbf"
+let s:gui0EDark = "9e60b1"
+let s:gui0FDark = "984038"
 
 
 
@@ -186,7 +186,7 @@ call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
 
-call <sid>hi("Search",        s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
+call <sid>hi("Search",        s:gui01, s:gui0D, s:cterm01, s:cterm0D,  "", "")
 
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
@@ -195,7 +195,7 @@ call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "", "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
 
-call <sid>hi("WildMenu",      s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
+call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
 
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
@@ -205,7 +205,7 @@ call <sid>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 
-call <sid>hi("StatusLine",    s:gui04, s:gui01, s:cterm04, s:cterm02, "none", "")
+call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none", "")
 call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
 
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none", "")
