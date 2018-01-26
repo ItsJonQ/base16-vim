@@ -1,4 +1,4 @@
-" Base16 GH (https://github.com/chriskempson/base16)
+" Base16 GHONE (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,7 +7,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-gh.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-ghone.".&background.".sh"
   endif
 endif
 
@@ -18,27 +18,27 @@ let s:gui01 = "2c323c"
 
 let s:gui02 = "4f5b66"
 let s:gui03 = "65737e"
-let s:gui04 = "bebebe"
-let s:gui05 = "e1e1e1"
-let s:gui06 = "f2f2f2"
-let s:gui07 = "ffffff"
+let s:gui04 = "a7adba"
+let s:gui05 = "c0c5ce"
+let s:gui06 = "dfe1e8"
+let s:gui07 = "eff1f5"
 let s:gui08 = "990000"
-let s:gui09 = "ffffff"
+let s:gui09 = "eff1f5"
 let s:gui0A = "445588"
 let s:gui0B = "008080"
 let s:gui0C = "606aa1"
 let s:gui0D = "445588"
-let s:gui0E = "ffffff"
-let s:gui0F = "ffffff"
+let s:gui0E = "eff1f5"
+let s:gui0F = "eff1f5"
 " Light
 let s:gui08Dark = "990000"
-let s:gui09Dark = "ffffff"
+let s:gui09Dark = "eff1f5"
 let s:gui0ADark = "445588"
 let s:gui0BDark = "008080"
 let s:gui0CDark = "606aa1"
 let s:gui0DDark = "445588"
-let s:gui0EDark = "ffffff"
-let s:gui0FDark = "ffffff"
+let s:gui0EDark = "eff1f5"
+let s:gui0FDark = "eff1f5"
 
 
 
@@ -73,7 +73,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-gh"
+let g:colors_name = "base16-ghone"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
