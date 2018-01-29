@@ -31,6 +31,7 @@ let s:gui0D = "98c379"
 let s:gui0E = "98c379"
 let s:gui0F = "98c379"
 " Light
+
 let s:gui08Dark = "7a9c61"
 let s:gui09Dark = "7a9c61"
 let s:gui0ADark = "7a9c61"
@@ -39,6 +40,7 @@ let s:gui0CDark = "7a9c61"
 let s:gui0DDark = "7a9c61"
 let s:gui0EDark = "7a9c61"
 let s:gui0FDark = "7a9c61"
+
 
 
 

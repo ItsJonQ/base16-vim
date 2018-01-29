@@ -22,23 +22,25 @@ let s:gui04 = "c4c4c4"
 let s:gui05 = "e5e5e5"
 let s:gui06 = "f6f6f6"
 let s:gui07 = "ffffff"
-let s:gui08 = "990000"
+let s:gui08 = "e06c75"
 let s:gui09 = "ffffff"
-let s:gui0A = "445588"
-let s:gui0B = "008080"
-let s:gui0C = "606aa1"
-let s:gui0D = "445588"
+let s:gui0A = "f0c674"
+let s:gui0B = "98c379"
+let s:gui0C = "56b6c2"
+let s:gui0D = "61afef"
 let s:gui0E = "ffffff"
 let s:gui0F = "ffffff"
 " Light
+
 let s:gui08Dark = "990000"
-let s:gui09Dark = "ffffff"
+let s:gui09Dark = "141820"
 let s:gui0ADark = "445588"
 let s:gui0BDark = "008080"
 let s:gui0CDark = "606aa1"
 let s:gui0DDark = "445588"
-let s:gui0EDark = "ffffff"
-let s:gui0FDark = "ffffff"
+let s:gui0EDark = "141820"
+let s:gui0FDark = "141820"
+
 
 
 

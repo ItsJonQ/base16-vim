@@ -31,6 +31,7 @@ let s:gui0D = "28b4ff"
 let s:gui0E = "28b4ff"
 let s:gui0F = "28b4ff"
 " Light
+
 let s:gui08Dark = "2090cc"
 let s:gui09Dark = "2090cc"
 let s:gui0ADark = "2090cc"
@@ -39,6 +40,7 @@ let s:gui0CDark = "2090cc"
 let s:gui0DDark = "2090cc"
 let s:gui0EDark = "2090cc"
 let s:gui0FDark = "2090cc"
+
 
 
 
