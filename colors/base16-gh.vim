@@ -13,32 +13,34 @@ endif
 
 " GUI color definitions
 
-let s:gui00 = "282c34"
-let s:gui01 = "2c323c"
+let s:gui00 = "141820"
+let s:gui01 = "282c34"
 
-let s:gui02 = "4f5b66"
-let s:gui03 = "65737e"
-let s:gui04 = "bebebe"
-let s:gui05 = "e1e1e1"
-let s:gui06 = "f2f2f2"
+let s:gui02 = "2c323c"
+let s:gui03 = "4f5b66"
+let s:gui04 = "c4c4c4"
+let s:gui05 = "e5e5e5"
+let s:gui06 = "f6f6f6"
 let s:gui07 = "ffffff"
-let s:gui08 = "990000"
+let s:gui08 = "e06c75"
 let s:gui09 = "ffffff"
-let s:gui0A = "445588"
-let s:gui0B = "008080"
-let s:gui0C = "606aa1"
-let s:gui0D = "445588"
+let s:gui0A = "c8dcff"
+let s:gui0B = "50c0c0"
+let s:gui0C = "c8dcff"
+let s:gui0D = "c8dcff"
 let s:gui0E = "ffffff"
 let s:gui0F = "ffffff"
 " Light
+
 let s:gui08Dark = "990000"
-let s:gui09Dark = "ffffff"
+let s:gui09Dark = "141820"
 let s:gui0ADark = "445588"
 let s:gui0BDark = "008080"
 let s:gui0CDark = "606aa1"
 let s:gui0DDark = "445588"
-let s:gui0EDark = "ffffff"
-let s:gui0FDark = "ffffff"
+let s:gui0EDark = "141820"
+let s:gui0FDark = "141820"
+
 
 
 
@@ -332,6 +334,26 @@ call <sid>hi("sassClassChar",  s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("sassInclude",    s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("sassMixing",     s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("sassMixinName",  s:gui0D, "", s:cterm0D, "", "", "")
+
+" SCSS highlighting
+" call <sid>hi("scssAtRoot",                  s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssEachKeyword",             s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssElse",                    s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssExtend",                  s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssForKeyword",              s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssIf",                      s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssImport",                  s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssInclude",                 s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssMixin",                   s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssReturn",                  s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssWhile",                   s:gui07, "", s:cterm07, "", "", "")
+" call <sid>hi("scssMixinName",               s:gui08, "", s:cterm08, "", "", "")
+" call <sid>hi("scssSelectorName",            s:gui0A, "", s:cterm0A, "", "", "")
+" call <sid>hi("scssAmpersand",               s:gui0B, "", s:cterm0B, "", "", "")
+" call <sid>hi("scssInterpolationDelimiter",  s:gui0B, "", s:cterm0B, "", "", "")
+" call <sid>hi("scssVariable",                s:gui0B, "", s:cterm0B, "", "", "")
+" Custom Override
+" call <sid>hi("String",                      s:gui08, "", s:cterm08, "", "", "")
 
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "", "")
