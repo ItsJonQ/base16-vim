@@ -1,5 +1,5 @@
 " Base16 Tomorrow (https://github.com/chriskempson/base16)
-" Scheme: Chris Kempson (http://chriskempson.com)
+" Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -29,7 +29,7 @@ let s:gui0B = "a3be8c"
 let s:gui0C = "96b5b4"
 let s:gui0D = "8fa1b3"
 let s:gui0E = "b48ead"
-let s:gui0F = "ab7967"
+let s:gui0F = "bf616a"
 " Light
 
 let s:gui08Dark = "994e55"
@@ -39,7 +39,7 @@ let s:gui0BDark = "829870"
 let s:gui0CDark = "789190"
 let s:gui0DDark = "72818f"
 let s:gui0EDark = "90728a"
-let s:gui0FDark = "896152"
+let s:gui0FDark = "994e55"
 
 
 
