@@ -1,5 +1,5 @@
 " Base16 Ocean (https://github.com/chriskempson/base16)
-" Scheme: Chris Kempson (http://chriskempson.com)
+" Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -14,13 +14,13 @@ endif
 " GUI color definitions
 
 let s:gui00 = "2b303b"
-let s:gui01 = "343d46"
+let s:gui01 = "303540"
 
-let s:gui02 = "4f5b66"
-let s:gui03 = "65737e"
+let s:gui02 = "494e59"
+let s:gui03 = "5d626d"
 let s:gui04 = "a7adba"
 let s:gui05 = "c0c5ce"
-let s:gui06 = "dfe1e8"
+let s:gui06 = "eaecf0"
 let s:gui07 = "eff1f5"
 let s:gui08 = "bf616a"
 let s:gui09 = "d08770"
