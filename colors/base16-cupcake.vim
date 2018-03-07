@@ -1,5 +1,5 @@
 " Base16 Cupcake (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (http://jonquach.com)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -14,13 +14,13 @@ endif
 " GUI color definitions
 
 let s:gui00 = "4e4658"
-let s:gui01 = "534b5c"
+let s:gui01 = "524a5c"
 
-let s:gui02 = "6c6476"
-let s:gui03 = "80788a"
-let s:gui04 = "c9bfc0"
-let s:gui05 = "ddd3d4"
-let s:gui06 = "f6eced"
+let s:gui02 = "5e546a"
+let s:gui03 = "655b72"
+let s:gui04 = "da7e87"
+let s:gui05 = "e5a4ab"
+let s:gui06 = "f6dee0"
 let s:gui07 = "fbf1f2"
 let s:gui08 = "d57e85"
 let s:gui09 = "d08770"
