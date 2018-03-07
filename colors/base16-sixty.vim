@@ -17,7 +17,7 @@ let s:gui00 = "282c34"
 let s:gui01 = "2b2f38"
 
 let s:gui02 = "323741"
-let s:gui03 = "383e49"
+let s:gui03 = "3c424e"
 let s:gui04 = "c2cad9"
 let s:gui05 = "d9dde7"
 let s:gui06 = "e8eaf0"
