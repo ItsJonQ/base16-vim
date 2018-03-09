@@ -28,7 +28,7 @@ let s:gui0A = "f0c674"
 let s:gui0B = "8dc891"
 let s:gui0C = "56b6c2"
 let s:gui0D = "61afef"
-let s:gui0E = "bb99b4"
+let s:gui0E = "c68cdd"
 let s:gui0F = "e06c75"
 " Light
 
@@ -38,7 +38,7 @@ let s:gui0ADark = "c09e5d"
 let s:gui0BDark = "71a074"
 let s:gui0CDark = "45929b"
 let s:gui0DDark = "4e8cbf"
-let s:gui0EDark = "967a90"
+let s:gui0EDark = "9e70b1"
 let s:gui0FDark = "b3565e"
 
 
