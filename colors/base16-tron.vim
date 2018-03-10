@@ -1,5 +1,5 @@
 " Base16 Tron (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (http://jonquach.com)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -13,33 +13,33 @@ endif
 
 " GUI color definitions
 
-let s:gui00 = "000000"
-let s:gui01 = "1c1c1c"
+let s:gui00 = "141820"
+let s:gui01 = "151a22"
 
-let s:gui02 = "3c3c3c"
-let s:gui03 = "5c5c5c"
-let s:gui04 = "28b4ff"
-let s:gui05 = "28b4ff"
-let s:gui06 = "28b4ff"
-let s:gui07 = "28b4ff"
-let s:gui08 = "28b4ff"
-let s:gui09 = "28b4ff"
-let s:gui0A = "28b4ff"
-let s:gui0B = "28b4ff"
-let s:gui0C = "28b4ff"
-let s:gui0D = "28b4ff"
-let s:gui0E = "28b4ff"
-let s:gui0F = "28b4ff"
+let s:gui02 = "1f2532"
+let s:gui03 = "252c3b"
+let s:gui04 = "d4d4d4"
+let s:gui05 = "e7e7e7"
+let s:gui06 = "f4f4f4"
+let s:gui07 = "fafafa"
+let s:gui08 = "f0c674"
+let s:gui09 = "f0c674"
+let s:gui0A = "f0c674"
+let s:gui0B = "61afef"
+let s:gui0C = "61afef"
+let s:gui0D = "61afef"
+let s:gui0E = "61afef"
+let s:gui0F = "f0c674"
 " Light
 
-let s:gui08Dark = "2090cc"
-let s:gui09Dark = "2090cc"
-let s:gui0ADark = "2090cc"
-let s:gui0BDark = "2090cc"
-let s:gui0CDark = "2090cc"
-let s:gui0DDark = "2090cc"
-let s:gui0EDark = "2090cc"
-let s:gui0FDark = "2090cc"
+let s:gui08Dark = "c09e5d"
+let s:gui09Dark = "c09e5d"
+let s:gui0ADark = "c09e5d"
+let s:gui0BDark = "4e8cbf"
+let s:gui0CDark = "4e8cbf"
+let s:gui0DDark = "4e8cbf"
+let s:gui0EDark = "4e8cbf"
+let s:gui0FDark = "c09e5d"
 
 
 
@@ -188,7 +188,7 @@ call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
 
-call <sid>hi("Search",        s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
+call <sid>hi("Search",        s:gui01, s:gui0D, s:cterm01, s:cterm0D,  "", "")
 
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
@@ -197,7 +197,7 @@ call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "", "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
 
-call <sid>hi("WildMenu",      s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
+call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
 
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
@@ -207,7 +207,7 @@ call <sid>hi("Normal",        s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
 call <sid>hi("LineNr",        s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 call <sid>hi("SignColumn",    s:gui03, s:gui01, s:cterm03, s:cterm01, "", "")
 
-call <sid>hi("StatusLine",    s:gui04, s:gui01, s:cterm04, s:cterm02, "none", "")
+call <sid>hi("StatusLine",    s:gui04, s:gui02, s:cterm04, s:cterm02, "none", "")
 call <sid>hi("StatusLineNC",  s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
 
 call <sid>hi("VertSplit",     s:gui02, s:gui02, s:cterm02, s:cterm02, "none", "")
