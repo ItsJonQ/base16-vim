@@ -33,8 +33,8 @@ let s:gui0F = "c96b7e"
 " Light
 
 let s:gui08Dark = "a15665"
-let s:gui09Dark = "a66c5a"
-let s:gui0ADark = "bca26f"
+let s:gui09Dark = "a25f4a"
+let s:gui0ADark = "b99a5a"
 let s:gui0BDark = "71a074"
 let s:gui0CDark = "789190"
 let s:gui0DDark = "72818f"
