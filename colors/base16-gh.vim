@@ -305,6 +305,12 @@ call <sid>hi("javaScript",        s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("javaScriptBraces",  s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "", "")
 
+call <sid>hi("jsImport",          s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("jsExport",          s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("jsOperator",        s:gui0C, "", s:cterm0C, "", "", "")
+call <sid>hi("jsStorageClass",    s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("jsVariableDef",     s:gui0A, "", s:cterm0A, "", "", "")
+
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("markdownError",             s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")
