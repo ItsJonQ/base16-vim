@@ -34,7 +34,7 @@ let s:gui0F = "f4f2f0"
 
 let s:gui08Dark = "cc3264"
 let s:gui09Dark = "10131a"
-let s:gui0ADark = "be9648"
+let s:gui0ADark = "ba8a2a"
 let s:gui0BDark = "629966"
 let s:gui0CDark = "10131a"
 let s:gui0DDark = "629966"
