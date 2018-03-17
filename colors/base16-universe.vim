@@ -32,13 +32,13 @@ let s:gui0E = "ff5a90"
 let s:gui0F = "eff1f5"
 " Light
 
-let s:gui08Dark = "cc4873"
+let s:gui08Dark = "cc3264"
 let s:gui09Dark = "10131a"
-let s:gui0ADark = "c09e5d"
-let s:gui0BDark = "6ab461"
+let s:gui0ADark = "be9648"
+let s:gui0BDark = "59b04e"
 let s:gui0CDark = "10131a"
-let s:gui0DDark = "6ab461"
-let s:gui0EDark = "cc4873"
+let s:gui0DDark = "59b04e"
+let s:gui0EDark = "cc3264"
 let s:gui0FDark = "10131a"
 
 
