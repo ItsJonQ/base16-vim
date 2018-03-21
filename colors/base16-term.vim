@@ -37,7 +37,7 @@ let s:gui09Dark = "b600b4"
 let s:gui0ADark = "276a77"
 let s:gui0BDark = "00a22a"
 let s:gui0CDark = "276a77"
-let s:gui0DDark = "0000cc"
+let s:gui0DDark = "1030a4"
 let s:gui0EDark = "b600b4"
 let s:gui0FDark = "9d1511"
 
