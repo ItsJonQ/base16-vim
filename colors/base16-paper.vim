@@ -38,7 +38,7 @@ let s:gui0ADark = "276a77"
 let s:gui0BDark = "377926"
 let s:gui0CDark = "276a77"
 let s:gui0DDark = "1030a4"
-let s:gui0EDark = "59359a"
+let s:gui0EDark = "b600b4"
 let s:gui0FDark = "a63154"
 
 
