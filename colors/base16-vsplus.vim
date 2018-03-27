@@ -1,5 +1,5 @@
 " Base16 VSPlus (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (http://jonquach.com)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -19,27 +19,27 @@ let s:gui01 = "252526"
 let s:gui02 = "333333"
 let s:gui03 = "555555"
 let s:gui04 = "bbbbbb"
-let s:gui05 = "dddddd"
+let s:gui05 = "dcdcdc"
 let s:gui06 = "f3f3f3"
 let s:gui07 = "ffffff"
 let s:gui08 = "c88cbe"
 let s:gui09 = "ce9178"
 let s:gui0A = "dcdcaa"
 let s:gui0B = "4ec9b0"
-let s:gui0C = "569cd6"
+let s:gui0C = "9cdcfe"
 let s:gui0D = "569cd6"
 let s:gui0E = "569cd6"
-let s:gui0F = "569cd6"
+let s:gui0F = "c88cbe"
 " Light
 
-let s:gui08Dark = "a07098"
-let s:gui09Dark = "a57460"
-let s:gui0ADark = "b0b088"
-let s:gui0BDark = "3ea18d"
-let s:gui0CDark = "457dab"
-let s:gui0DDark = "457dab"
-let s:gui0EDark = "457dab"
-let s:gui0FDark = "457dab"
+let s:gui08Dark = "90261d"
+let s:gui09Dark = "713da2"
+let s:gui0ADark = "1d479e"
+let s:gui0BDark = "377926"
+let s:gui0CDark = "1d479e"
+let s:gui0DDark = "1030a4"
+let s:gui0EDark = "713da2"
+let s:gui0FDark = "90261d"
 
 
 
