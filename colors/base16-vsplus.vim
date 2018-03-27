@@ -28,7 +28,7 @@ let s:gui0A = "dcdcaa"
 let s:gui0B = "4ec9b0"
 let s:gui0C = "9cdcfe"
 let s:gui0D = "569cd6"
-let s:gui0E = "569cd6"
+let s:gui0E = "c88cbe"
 let s:gui0F = "c88cbe"
 " Light
 
