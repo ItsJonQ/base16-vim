@@ -346,6 +346,24 @@ call <sid>hi("jsVariableDef",            s:gui0A, "", s:cterm0A, "", "", "")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("markdownError",             s:gui05, s:gui00, s:cterm05, s:cterm00, "", "")

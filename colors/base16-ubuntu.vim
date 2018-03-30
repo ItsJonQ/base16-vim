@@ -1,5 +1,5 @@
 " Base16 Ubuntu (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (http://jonquach.com)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -22,24 +22,24 @@ let s:gui04 = "bb94a9"
 let s:gui05 = "eee9ed"
 let s:gui06 = "fbf3f7"
 let s:gui07 = "fbf3f7"
-let s:gui08 = "fbf3f7"
-let s:gui09 = "fbf3f7"
-let s:gui0A = "fbf3f7"
-let s:gui0B = "fbf3f7"
-let s:gui0C = "fbf3f7"
-let s:gui0D = "fbf3f7"
-let s:gui0E = "fbf3f7"
-let s:gui0F = "fbf3f7"
+let s:gui08 = "e41f4b"
+let s:gui09 = "e400e1"
+let s:gui0A = "c8dcff"
+let s:gui0B = "00ca35"
+let s:gui0C = "c8dcff"
+let s:gui0D = "328cff"
+let s:gui0E = "e400e1"
+let s:gui0F = "e41f4b"
 " Light
 
-let s:gui08Dark = "c9c2c6"
-let s:gui09Dark = "c9c2c6"
-let s:gui0ADark = "c9c2c6"
-let s:gui0BDark = "c9c2c6"
-let s:gui0CDark = "c9c2c6"
-let s:gui0DDark = "c9c2c6"
-let s:gui0EDark = "c9c2c6"
-let s:gui0FDark = "c9c2c6"
+let s:gui08Dark = "90261d"
+let s:gui09Dark = "713da2"
+let s:gui0ADark = "1d479e"
+let s:gui0BDark = "377926"
+let s:gui0CDark = "1d479e"
+let s:gui0DDark = "1030a4"
+let s:gui0EDark = "713da2"
+let s:gui0FDark = "90261d"
 
 
 
@@ -328,6 +328,24 @@ call <sid>hi("jsSwitchCase",             s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("jsVariableDef",            s:gui0A, "", s:cterm0A, "", "", "")
 
 " One continued...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
