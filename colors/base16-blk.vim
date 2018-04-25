@@ -29,7 +29,7 @@ let s:gui0B = "ffffff"
 let s:gui0C = "ffffff"
 let s:gui0D = "ffffff"
 let s:gui0E = "ffffff"
-let s:gui0F = "ffffff"
+let s:gui0F = "999999"
 " Light
 
 let s:gui08Dark = "7a7a7a"
@@ -39,7 +39,7 @@ let s:gui0BDark = "cccccc"
 let s:gui0CDark = "cccccc"
 let s:gui0DDark = "cccccc"
 let s:gui0EDark = "cccccc"
-let s:gui0FDark = "cccccc"
+let s:gui0FDark = "7a7a7a"
 
 
 
