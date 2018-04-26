@@ -22,6 +22,7 @@ let s:gui04 = "ff8c00"
 let s:gui05 = "ff8c00"
 let s:gui06 = "ff8c00"
 let s:gui07 = "ff8c00"
+
 let s:gui08 = "ff8c00"
 let s:gui09 = "ff8c00"
 let s:gui0A = "ff8c00"
@@ -30,6 +31,8 @@ let s:gui0C = "ff8c00"
 let s:gui0D = "ff8c00"
 let s:gui0E = "ff8c00"
 let s:gui0F = "ff8c00"
+
+
 " Light
 
 let s:gui08Dark = "cc7000"

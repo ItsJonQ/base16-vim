@@ -22,6 +22,7 @@ let s:gui04 = "bbbbbb"
 let s:gui05 = "dddddd"
 let s:gui06 = "f3f3f3"
 let s:gui07 = "ffffff"
+
 let s:gui08 = "c88cbe"
 let s:gui09 = "ce9178"
 let s:gui0A = "ffffff"
@@ -30,6 +31,8 @@ let s:gui0C = "569cd6"
 let s:gui0D = "569cd6"
 let s:gui0E = "569cd6"
 let s:gui0F = "569cd6"
+
+
 " Light
 
 let s:gui08Dark = "a07098"
