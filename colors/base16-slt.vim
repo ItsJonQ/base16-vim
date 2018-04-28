@@ -1,4 +1,4 @@
-" Base16 PRPL (https://github.com/chriskempson/base16)
+" Base16 SLT (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,17 +7,17 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-prpl.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-slt.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "2c2634"
-let s:gui01 = "302938"
+let s:gui00 = "292d3e"
+let s:gui01 = "2c3143"
 
-let s:gui02 = "463d53"
-let s:gui03 = "635675"
+let s:gui02 = "424863"
+let s:gui03 = "5c658b"
 let s:gui04 = "b0bedb"
 let s:gui05 = "dbe1ee"
 let s:gui06 = "eaeef5"
@@ -35,14 +35,14 @@ let s:gui0F = "f4f6fa"
 
 " Light
 
-let s:gui08Dark = "2c2634"
-let s:gui09Dark = "2c2634"
-let s:gui0ADark = "2c2634"
-let s:gui0BDark = "2c2634"
-let s:gui0CDark = "2c2634"
-let s:gui0DDark = "2c2634"
-let s:gui0EDark = "2c2634"
-let s:gui0FDark = "2c2634"
+let s:gui08Dark = "292D3E"
+let s:gui09Dark = "292D3E"
+let s:gui0ADark = "292D3E"
+let s:gui0BDark = "292D3E"
+let s:gui0CDark = "292D3E"
+let s:gui0DDark = "292D3E"
+let s:gui0EDark = "292D3E"
+let s:gui0FDark = "292D3E"
 
 
 
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-prpl"
+let g:colors_name = "base16-slt"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
