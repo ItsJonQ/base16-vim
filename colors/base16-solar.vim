@@ -23,26 +23,26 @@ let s:gui05 = "fbebc1"
 let s:gui06 = "fcf2d6"
 let s:gui07 = "fdf6e3"
 
-let s:gui08 = "dc322f"
-let s:gui09 = "cb4b16"
-let s:gui0A = "b58900"
-let s:gui0B = "859900"
-let s:gui0C = "2aa198"
-let s:gui0D = "268bd2"
-let s:gui0E = "6c71c4"
-let s:gui0F = "d33682"
+let s:gui08 = "fdf6e3"
+let s:gui09 = "fdf6e3"
+let s:gui0A = "fdf6e3"
+let s:gui0B = "fdf6e3"
+let s:gui0C = "fdf6e3"
+let s:gui0D = "fdf6e3"
+let s:gui0E = "fdf6e3"
+let s:gui0F = "fdf6e3"
 
 
 " Light
 
-let s:gui08Dark = "b02826"
-let s:gui09Dark = "a23c12"
-let s:gui0ADark = "916e00"
-let s:gui0BDark = "6a7a00"
-let s:gui0CDark = "22817a"
-let s:gui0DDark = "1e6fa8"
-let s:gui0EDark = "565a9d"
-let s:gui0FDark = "a92b68"
+let s:gui08Dark = "002b36"
+let s:gui09Dark = "002b36"
+let s:gui0ADark = "002b36"
+let s:gui0BDark = "002b36"
+let s:gui0CDark = "002b36"
+let s:gui0DDark = "002b36"
+let s:gui0EDark = "002b36"
+let s:gui0FDark = "002b36"
 
 
 
