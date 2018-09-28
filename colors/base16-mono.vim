@@ -1,5 +1,5 @@
 " Base16 Mono (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (https://jonquach.com)
+" Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -18,31 +18,31 @@ let s:gui01 = "0c0c0c"
 
 let s:gui02 = "2c2c2c"
 let s:gui03 = "4c4c4c"
-let s:gui04 = "cccccc"
-let s:gui05 = "ececec"
-let s:gui06 = "f5f5f5"
-let s:gui07 = "ffffff"
+let s:gui04 = "bbbbbb"
+let s:gui05 = "dcdcdc"
+let s:gui06 = "e5e5e5"
+let s:gui07 = "eeeeee"
 
-let s:gui08 = "ffffff"
-let s:gui09 = "ffffff"
-let s:gui0A = "ffffff"
-let s:gui0B = "ffffff"
-let s:gui0C = "ffffff"
-let s:gui0D = "ffffff"
-let s:gui0E = "ffffff"
-let s:gui0F = "ffffff"
+let s:gui08 = "eeeeee"
+let s:gui09 = "eeeeee"
+let s:gui0A = "eeeeee"
+let s:gui0B = "eeeeee"
+let s:gui0C = "eeeeee"
+let s:gui0D = "eeeeee"
+let s:gui0E = "eeeeee"
+let s:gui0F = "eeeeee"
 
 
 " Light
 
-let s:gui08Dark = "cccccc"
-let s:gui09Dark = "cccccc"
-let s:gui0ADark = "cccccc"
-let s:gui0BDark = "cccccc"
-let s:gui0CDark = "cccccc"
-let s:gui0DDark = "cccccc"
-let s:gui0EDark = "cccccc"
-let s:gui0FDark = "cccccc"
+let s:gui08Dark = "bebebe"
+let s:gui09Dark = "bebebe"
+let s:gui0ADark = "bebebe"
+let s:gui0BDark = "bebebe"
+let s:gui0CDark = "bebebe"
+let s:gui0DDark = "bebebe"
+let s:gui0EDark = "bebebe"
+let s:gui0FDark = "bebebe"
 
 
 
