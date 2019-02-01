@@ -20,7 +20,7 @@ let s:gui02 = "2c2c2c"
 let s:gui03 = "4c4c4c"
 let s:gui04 = "bbbbbb"
 let s:gui05 = "ececec"
-let s:gui06 = "f5f5f5"
+let s:gui06 = "00f72c"
 let s:gui07 = "00f72c"
 
 let s:gui08 = "c41a15"
