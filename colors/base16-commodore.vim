@@ -18,9 +18,9 @@ let s:gui01 = "483fa9"
 
 let s:gui02 = "5249b3"
 let s:gui03 = "7a6dde"
-let s:gui04 = "8e81f2"
-let s:gui05 = "a295ff"
-let s:gui06 = "b6a9ff"
+let s:gui04 = "7a7dde"
+let s:gui05 = "8e81f2"
+let s:gui06 = "a295ff"
 let s:gui07 = "b6a9ff"
 
 let s:gui08 = "b6a9ff"
