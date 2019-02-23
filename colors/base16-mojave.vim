@@ -1,4 +1,4 @@
-" Base16 iTerm (https://github.com/chriskempson/base16)
+" Base16 Mojave (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,17 +7,17 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-iterm.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-mojave.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "282828"
-let s:gui01 = "3c3c3c"
+let s:gui00 = "1b1b1b"
+let s:gui01 = "282828"
 
-let s:gui02 = "4c4c4c"
-let s:gui03 = "5c5c5c"
+let s:gui02 = "3c3c3c"
+let s:gui03 = "4c4c4c"
 let s:gui04 = "aaaaaa"
 let s:gui05 = "cccccc"
 let s:gui06 = "dddddd"
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-iterm"
+let g:colors_name = "base16-mojave"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
