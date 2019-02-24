@@ -18,31 +18,31 @@ let s:gui01 = "111111"
 
 let s:gui02 = "222222"
 let s:gui03 = "333333"
-let s:gui04 = "32a0ff"
-let s:gui05 = "32a0ff"
-let s:gui06 = "32a0ff"
-let s:gui07 = "32a0ff"
+let s:gui04 = "40c4ff"
+let s:gui05 = "40c4ff"
+let s:gui06 = "40c4ff"
+let s:gui07 = "40c4ff"
 
 let s:gui08 = "e06c75"
-let s:gui09 = "32a0ff"
-let s:gui0A = "32a0ff"
+let s:gui09 = "40c4ff"
+let s:gui0A = "40c4ff"
 let s:gui0B = "31f65c"
-let s:gui0C = "32a0ff"
-let s:gui0D = "32a0ff"
-let s:gui0E = "32a0ff"
-let s:gui0F = "32a0ff"
+let s:gui0C = "40c4ff"
+let s:gui0D = "40c4ff"
+let s:gui0E = "40c4ff"
+let s:gui0F = "40c4ff"
 
 
 " Light
 
 let s:gui08Dark = "b3565e"
-let s:gui09Dark = "2880cc"
-let s:gui0ADark = "2880cc"
+let s:gui09Dark = "339dcc"
+let s:gui0ADark = "339dcc"
 let s:gui0BDark = "27c54a"
-let s:gui0CDark = "2880cc"
-let s:gui0DDark = "2880cc"
-let s:gui0EDark = "2880cc"
-let s:gui0FDark = "2880cc"
+let s:gui0CDark = "339dcc"
+let s:gui0DDark = "339dcc"
+let s:gui0EDark = "339dcc"
+let s:gui0FDark = "339dcc"
 
 
 
