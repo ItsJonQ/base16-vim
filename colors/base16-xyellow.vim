@@ -1,4 +1,4 @@
-" Base16 xblue (https://github.com/chriskempson/base16)
+" Base16 xyellow (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (http://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,7 +7,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-xblue.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-xyellow.".&background.".sh"
   endif
 endif
 
@@ -18,31 +18,31 @@ let s:gui01 = "111111"
 
 let s:gui02 = "222222"
 let s:gui03 = "333333"
-let s:gui04 = "82b1ff"
-let s:gui05 = "82b1ff"
-let s:gui06 = "82b1ff"
-let s:gui07 = "82b1ff"
+let s:gui04 = "ffff00"
+let s:gui05 = "ffff00"
+let s:gui06 = "ffff00"
+let s:gui07 = "ffff00"
 
 let s:gui08 = "f55fff"
-let s:gui09 = "82b1ff"
-let s:gui0A = "82b1ff"
-let s:gui0B = "82b1ff"
-let s:gui0C = "82b1ff"
-let s:gui0D = "82b1ff"
-let s:gui0E = "82b1ff"
-let s:gui0F = "82b1ff"
+let s:gui09 = "ffff00"
+let s:gui0A = "ffff00"
+let s:gui0B = "ffff00"
+let s:gui0C = "ffff00"
+let s:gui0D = "ffff00"
+let s:gui0E = "ffff00"
+let s:gui0F = "ffff00"
 
 
 " Light
 
 let s:gui08Dark = "c44ccc"
-let s:gui09Dark = "688ecc"
-let s:gui0ADark = "688ecc"
-let s:gui0BDark = "688ecc"
-let s:gui0CDark = "688ecc"
-let s:gui0DDark = "688ecc"
-let s:gui0EDark = "688ecc"
-let s:gui0FDark = "688ecc"
+let s:gui09Dark = "cccc00"
+let s:gui0ADark = "cccc00"
+let s:gui0BDark = "cccc00"
+let s:gui0CDark = "cccc00"
+let s:gui0DDark = "cccc00"
+let s:gui0EDark = "cccc00"
+let s:gui0FDark = "cccc00"
 
 
 
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-xblue"
+let g:colors_name = "base16-xyellow"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
