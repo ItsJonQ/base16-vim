@@ -187,8 +187,8 @@ call <sid>hi("IncSearch",     s:gui01, s:gui0D, s:cterm01, s:cterm0D, "none", ""
 call <sid>hi("Italic",        "", "", "", "", "none", "")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("MatchParen",    s:gui00, s:gui03, s:cterm00, s:cterm03,  "", "")
-call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("ModeMsg",       s:gui07, "", s:cterm07, "", "", "")
+call <sid>hi("MoreMsg",       s:gui07, "", s:cterm07, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
 
 call <sid>hi("Search",        s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
@@ -222,7 +222,7 @@ call <sid>hi("PMenu",         s:gui04, s:gui01, s:cterm04, s:cterm01, "none", ""
 call <sid>hi("PMenuSel",      s:gui01, s:gui0D, s:cterm01, s:cterm0D, "", "")
 call <sid>hi("TabLine",       s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
 call <sid>hi("TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01, "none", "")
-call <sid>hi("TabLineSel",    s:gui0B, s:gui01, s:cterm0B, s:cterm01, "none", "")
+call <sid>hi("TabLineSel",    s:gui07, s:gui01, s:cterm07, s:cterm01, "none", "")
 
 " Standard syntax highlighting
 call <sid>hi("Boolean",      s:gui09, "", s:cterm09, "", "", "")
