@@ -18,7 +18,7 @@ let s:gui01 = "121212"
 
 let s:gui02 = "262626"
 let s:gui03 = "3a3a3a"
-let s:gui04 = "d0d0d0"
+let s:gui04 = "a0a0a0"
 let s:gui05 = "e4e4e4"
 let s:gui06 = "eeeeee"
 let s:gui07 = "ffffff"
