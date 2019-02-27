@@ -194,11 +194,11 @@ call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("Search",        s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
 
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("TooLong",       s:gui07, "", s:cterm07, "", "", "")
+call <sid>hi("Underlined",    s:gui07, "", s:cterm07, "", "", "")
 call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "", "")
-call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("VisualNOS",     s:gui07, "", s:cterm07, "", "", "")
+call <sid>hi("WarningMsg",    s:gui07, "", s:cterm07, "", "", "")
 
 call <sid>hi("WildMenu",      s:gui0F, s:gui02, s:cterm0F, s:cterm02,  "", "")
 
@@ -426,7 +426,7 @@ call <sid>hi("scssMixin",                   s:gui0E, "", s:cterm0E, "", "", "")
 " Signify highlighting
 call <sid>hi("SignifySignAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "", "")
 call <sid>hi("SignifySignChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "", "")
-call <sid>hi("SignifySignDelete",  s:gui08, s:gui01, s:cterm08, s:cterm01, "", "")
+call <sid>hi("SignifySignDelete",  s:gui07, s:gui01, s:cterm07, s:cterm01, "", "")
 
 " Spelling highlighting
 call <sid>hi("SpellBad",     "", s:gui00, "", s:cterm00, "undercurl", s:gui08)
