@@ -21,16 +21,16 @@ let s:gui03 = "3b406a"
 let s:gui04 = "b3b5cb"
 let s:gui05 = "dbddf3"
 let s:gui06 = "eff1ff"
-let s:gui07 = "eff1ff"
+let s:gui07 = "ffffff"
 
 let s:gui08 = "de3618"
-let s:gui09 = "eff1ff"
-let s:gui0A = "eff1ff"
+let s:gui09 = "ffffff"
+let s:gui0A = "ffffff"
 let s:gui0B = "50b83c"
-let s:gui0C = "eff1ff"
-let s:gui0D = "eff1ff"
-let s:gui0E = "eff1ff"
-let s:gui0F = "eff1ff"
+let s:gui0C = "ffffff"
+let s:gui0D = "ffffff"
+let s:gui0E = "ffffff"
+let s:gui0F = "ffffff"
 
 
 " Light
