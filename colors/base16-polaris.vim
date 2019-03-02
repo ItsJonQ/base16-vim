@@ -23,7 +23,7 @@ let s:gui05 = "dbddf3"
 let s:gui06 = "ffffff"
 let s:gui07 = "ffffff"
 
-let s:gui08 = "de3618"
+let s:gui08 = "f49342"
 let s:gui09 = "ffffff"
 let s:gui0A = "ffffff"
 let s:gui0B = "50b83c"
@@ -35,7 +35,7 @@ let s:gui0F = "ffffff"
 
 " Light
 
-let s:gui08Dark = "b22b13"
+let s:gui08Dark = "c37635"
 let s:gui09Dark = "00033d"
 let s:gui0ADark = "00033d"
 let s:gui0BDark = "409330"
