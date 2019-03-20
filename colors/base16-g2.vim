@@ -13,36 +13,36 @@ endif
 
 " GUI color definitions
 
-let s:gui00 = "141820"
-let s:gui01 = "161a23"
+let s:gui00 = "11151c"
+let s:gui01 = "12171e"
 
-let s:gui02 = "202633"
-let s:gui03 = "2d3648"
-let s:gui04 = "bdbdd3"
-let s:gui05 = "e3e3ec"
-let s:gui06 = "f0f0f5"
-let s:gui07 = "f9f9fb"
+let s:gui02 = "1b222d"
+let s:gui03 = "262f3f"
+let s:gui04 = "69bab7"
+let s:gui05 = "88c8c6"
+let s:gui06 = "94cecb"
+let s:gui07 = "9bd1cf"
 
-let s:gui08 = "9090b5"
-let s:gui09 = "c9c9db"
-let s:gui0A = "c9c9db"
+let s:gui08 = "4ba29f"
+let s:gui09 = "73bfbc"
+let s:gui0A = "73bfbc"
 let s:gui0B = "31c794"
-let s:gui0C = "c9c9db"
+let s:gui0C = "73bfbc"
 let s:gui0D = "31c794"
 let s:gui0E = "31c794"
-let s:gui0F = "9090b5"
+let s:gui0F = "4ba29f"
 
 
 " Light
 
-let s:gui08Dark = "161b24"
-let s:gui09Dark = "12161e"
-let s:gui0ADark = "12161e"
+let s:gui08Dark = "13171f"
+let s:gui09Dark = "10131a"
+let s:gui0ADark = "10131a"
 let s:gui0BDark = "279f76"
-let s:gui0CDark = "12161e"
+let s:gui0CDark = "10131a"
 let s:gui0DDark = "279f76"
 let s:gui0EDark = "279f76"
-let s:gui0FDark = "161b24"
+let s:gui0FDark = "13171f"
 
 
 
