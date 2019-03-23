@@ -23,14 +23,14 @@ let s:gui05 = "d9dde7"
 let s:gui06 = "e6e9ef"
 let s:gui07 = "eff1f5"
 
-let s:gui08 = "e48c7d"
-let s:gui09 = "f3aa67"
-let s:gui0A = "f8cd76"
-let s:gui0B = "c3e48a"
-let s:gui0C = "7acde3"
-let s:gui0D = "7acde3"
-let s:gui0E = "d0c1fa"
-let s:gui0F = "e48c7d"
+let s:gui08 = "e06c75"
+let s:gui09 = "d08770"
+let s:gui0A = "f0c674"
+let s:gui0B = "98c379"
+let s:gui0C = "56b6c2"
+let s:gui0D = "61afef"
+let s:gui0E = "c678dd"
+let s:gui0F = "e06c75"
 
 
 " Light
