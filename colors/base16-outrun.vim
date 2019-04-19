@@ -1,5 +1,5 @@
-" Base16 Zero (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (http://jonquach.com)
+" Base16 Outrun (https://github.com/chriskempson/base16)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -7,42 +7,42 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-zero.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-outrun.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "141820"
-let s:gui01 = "181e28"
+let s:gui00 = "0d0221"
+let s:gui01 = "0e0224"
 
-let s:gui02 = "3b4752"
-let s:gui03 = "515f6a"
-let s:gui04 = "a7adba"
-let s:gui05 = "c0c5ce"
-let s:gui06 = "dfe1e8"
+let s:gui02 = "150335"
+let s:gui03 = "1d044a"
+let s:gui04 = "b3bdd0"
+let s:gui05 = "d9dde7"
+let s:gui06 = "e6e9ef"
 let s:gui07 = "eff1f5"
 
-let s:gui08 = "e06c75"
-let s:gui09 = "d08770"
-let s:gui0A = "f0c674"
-let s:gui0B = "98c379"
-let s:gui0C = "56b6c2"
-let s:gui0D = "61afef"
-let s:gui0E = "c678dd"
-let s:gui0F = "be5046"
+let s:gui08 = "f706cf"
+let s:gui09 = "ff6c11"
+let s:gui0A = "f9c80e"
+let s:gui0B = "2de2e6"
+let s:gui0C = "2de2e6"
+let s:gui0D = "1450ff"
+let s:gui0E = "f6019d"
+let s:gui0F = "d40078"
 
 
 " Light
 
-let s:gui08Dark = "b3565e"
-let s:gui09Dark = "a66c5a"
-let s:gui0ADark = "c09e5d"
-let s:gui0BDark = "7a9c61"
-let s:gui0CDark = "45929b"
-let s:gui0DDark = "4e8cbf"
-let s:gui0EDark = "9e60b1"
-let s:gui0FDark = "984038"
+let s:gui08Dark = "c605a6"
+let s:gui09Dark = "cc560e"
+let s:gui0ADark = "c7a00b"
+let s:gui0BDark = "24b5b8"
+let s:gui0CDark = "24b5b8"
+let s:gui0DDark = "1040cc"
+let s:gui0EDark = "c5017e"
+let s:gui0FDark = "aa0060"
 
 
 
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-zero"
+let g:colors_name = "base16-outrun"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
