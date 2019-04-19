@@ -1,4 +1,4 @@
-" Base16 Outrun (https://github.com/chriskempson/base16)
+" Base16 Outblk (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,21 +7,21 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-outrun.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-outblk.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "0d0221"
-let s:gui01 = "160c2d"
+let s:gui00 = "000000"
+let s:gui01 = "0c0c0c"
 
-let s:gui02 = "281c39"
-let s:gui03 = "372a3f"
-let s:gui04 = "b3bdd0"
-let s:gui05 = "d9dde7"
-let s:gui06 = "e6e9ef"
-let s:gui07 = "eff1f5"
+let s:gui02 = "2c2c2c"
+let s:gui03 = "4c4c4c"
+let s:gui04 = "bbbbbb"
+let s:gui05 = "ececec"
+let s:gui06 = "f5f5f5"
+let s:gui07 = "ffffff"
 
 let s:gui08 = "f706cf"
 let s:gui09 = "ff6c11"
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-outrun"
+let g:colors_name = "base16-outblk"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
