@@ -1,4 +1,4 @@
-" Base16 Zero (https://github.com/chriskempson/base16)
+" Base16 First (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,21 +7,21 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-zero.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-first.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "000000"
-let s:gui01 = "0c0c0c"
+let s:gui00 = "181818"
+let s:gui01 = "242424"
 
-let s:gui02 = "2c2c2c"
-let s:gui03 = "4c4c4c"
-let s:gui04 = "bbbbbb"
-let s:gui05 = "ececec"
-let s:gui06 = "f5f5f5"
-let s:gui07 = "ffffff"
+let s:gui02 = "383838"
+let s:gui03 = "484848"
+let s:gui04 = "b8b8b8"
+let s:gui05 = "d8d8d8"
+let s:gui06 = "ececec"
+let s:gui07 = "f8f8f8"
 
 let s:gui08 = "e06c75"
 let s:gui09 = "d08770"
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-zero"
+let g:colors_name = "base16-first"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
