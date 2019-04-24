@@ -1,5 +1,5 @@
 " Base16 Material (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (http://jonquach.com)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -13,36 +13,36 @@ endif
 
 " GUI color definitions
 
-let s:gui00 = "263238"
-let s:gui01 = "2c3846"
+let s:gui00 = "273237"
+let s:gui01 = "2a363c"
 
-let s:gui02 = "4f5c6b"
-let s:gui03 = "657281"
-let s:gui04 = "a7b3c2"
-let s:gui05 = "c0c8d7"
-let s:gui06 = "dfe1e8"
+let s:gui02 = "3e5058"
+let s:gui03 = "58717c"
+let s:gui04 = "b3bdd0"
+let s:gui05 = "d9dde7"
+let s:gui06 = "e6e9ef"
 let s:gui07 = "eff1f5"
 
-let s:gui08 = "e06c75"
-let s:gui09 = "d08770"
-let s:gui0A = "f0c674"
-let s:gui0B = "98c379"
-let s:gui0C = "56b6c2"
-let s:gui0D = "61afef"
-let s:gui0E = "c678dd"
-let s:gui0F = "be5046"
+let s:gui08 = "ff5a90"
+let s:gui09 = "f78c6c"
+let s:gui0A = "ffc98b"
+let s:gui0B = "8dc891"
+let s:gui0C = "8390f1"
+let s:gui0D = "82b1ff"
+let s:gui0E = "c792ea"
+let s:gui0F = "ff5a90"
 
 
 " Light
 
-let s:gui08Dark = "b3565e"
-let s:gui09Dark = "a66c5a"
-let s:gui0ADark = "c09e5d"
-let s:gui0BDark = "7a9c61"
-let s:gui0CDark = "45929b"
-let s:gui0DDark = "4e8cbf"
-let s:gui0EDark = "9e60b1"
-let s:gui0FDark = "984038"
+let s:gui08Dark = "cc2d61"
+let s:gui09Dark = "c45b3b"
+let s:gui0ADark = "cc9250"
+let s:gui0BDark = "5e9762"
+let s:gui0CDark = "4e5bbe"
+let s:gui0DDark = "497acc"
+let s:gui0EDark = "925bb6"
+let s:gui0FDark = "cc2d61"
 
 
 
