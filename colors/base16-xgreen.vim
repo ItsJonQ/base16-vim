@@ -17,7 +17,7 @@ let s:gui00 = "000000"
 let s:gui01 = "111111"
 
 let s:gui02 = "222222"
-let s:gui03 = "333333"
+let s:gui03 = "444444"
 let s:gui04 = "31f65c"
 let s:gui05 = "31f65c"
 let s:gui06 = "31f65c"
