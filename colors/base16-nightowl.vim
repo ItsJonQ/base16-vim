@@ -16,8 +16,8 @@ endif
 let s:gui00 = "011627"
 let s:gui01 = "011e36"
 
-let s:gui02 = "022f54"
-let s:gui03 = "033863"
+let s:gui02 = "02355e"
+let s:gui03 = "034377"
 let s:gui04 = "b3bdd0"
 let s:gui05 = "d9dde7"
 let s:gui06 = "e6e9ef"
