@@ -1,5 +1,5 @@
 " Base16 Default (https://github.com/chriskempson/base16)
-" Scheme: Chris Kempson (http://chriskempson.com)
+" Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -14,13 +14,13 @@ endif
 " GUI color definitions
 
 let s:gui00 = "181818"
-let s:gui01 = "282828"
+let s:gui01 = "1d1d1d"
 
-let s:gui02 = "383838"
-let s:gui03 = "585858"
+let s:gui02 = "282828"
+let s:gui03 = "484848"
 let s:gui04 = "b8b8b8"
-let s:gui05 = "d8d8d8"
-let s:gui06 = "e8e8e8"
+let s:gui05 = "e8e8e8"
+let s:gui06 = "f2f2f2"
 let s:gui07 = "f8f8f8"
 
 let s:gui08 = "ab4642"
