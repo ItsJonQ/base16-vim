@@ -1,4 +1,4 @@
-" Base16 OceanicNext (https://github.com/chriskempson/base16)
+" Base16 Basic (https://github.com/chriskempson/base16)
 " Scheme: Jon Q (https://jonquach.com)
 
 " This enables the coresponding base16-shell script to run so that
@@ -7,21 +7,21 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has('gui_running')
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-oceanicnext.".&background.".sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-basic.".&background.".sh"
   endif
 endif
 
 " GUI color definitions
 
-let s:gui00 = "1d2b33"
-let s:gui01 = "1f2f37"
+let s:gui00 = "181818"
+let s:gui01 = "1d1d1d"
 
-let s:gui02 = "2e4552"
-let s:gui03 = "416173"
-let s:gui04 = "b3bdd0"
-let s:gui05 = "d9dde7"
-let s:gui06 = "e6e9ef"
-let s:gui07 = "eff1f5"
+let s:gui02 = "282828"
+let s:gui03 = "484848"
+let s:gui04 = "b8b8b8"
+let s:gui05 = "e8e8e8"
+let s:gui06 = "fdfdfd"
+let s:gui07 = "f8f8f8"
 
 let s:gui08 = "e06c75"
 let s:gui09 = "d08770"
@@ -78,7 +78,7 @@ endif
 hi clear
 syntax reset
 
-let g:colors_name = "base16-oceanicnext"
+let g:colors_name = "base16-basic"
 
 " Highlighting function
 fun <sid>hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
