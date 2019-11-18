@@ -25,7 +25,7 @@ let s:gui07 = "eff1f5"
 
 let s:gui08 = "e48c7d"
 let s:gui09 = "f3aa67"
-let s:gui0A = "f8cd76"
+let s:gui0A = "89c0d0"
 let s:gui0B = "c3e48a"
 let s:gui0C = "89c0d0"
 let s:gui0D = "789fc0"
