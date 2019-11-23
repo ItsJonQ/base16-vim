@@ -23,26 +23,26 @@ let s:gui05 = "eee8d6"
 let s:gui06 = "f8f0dd"
 let s:gui07 = "fdf6e3"
 
-let s:gui08 = "fdf6e3"
-let s:gui09 = "fdf6e3"
-let s:gui0A = "fdf6e3"
-let s:gui0B = "fdf6e3"
-let s:gui0C = "fdf6e3"
-let s:gui0D = "fdf6e3"
-let s:gui0E = "fdf6e3"
-let s:gui0F = "fdf6e3"
+let s:gui08 = "ff5a90"
+let s:gui09 = "f78c6c"
+let s:gui0A = "ffc98b"
+let s:gui0B = "8dc891"
+let s:gui0C = "8390f1"
+let s:gui0D = "82b1ff"
+let s:gui0E = "c792ea"
+let s:gui0F = "ff5a90"
 
 
 " Light
 
-let s:gui08Dark = "2c2634"
-let s:gui09Dark = "2c2634"
-let s:gui0ADark = "2c2634"
-let s:gui0BDark = "2c2634"
-let s:gui0CDark = "2c2634"
-let s:gui0DDark = "2c2634"
-let s:gui0EDark = "2c2634"
-let s:gui0FDark = "2c2634"
+let s:gui08Dark = "cc2d61"
+let s:gui09Dark = "c45b3b"
+let s:gui0ADark = "cc9250"
+let s:gui0BDark = "5e9762"
+let s:gui0CDark = "4e5bbe"
+let s:gui0DDark = "497acc"
+let s:gui0EDark = "925bb6"
+let s:gui0FDark = "cc2d61"
 
 
 
