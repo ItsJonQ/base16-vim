@@ -36,13 +36,13 @@ let s:gui0F = "ffffff"
 " Light
 
 let s:gui08Dark = "cc0028"
-let s:gui09Dark = "000000"
-let s:gui0ADark = "000000"
-let s:gui0BDark = "000000"
-let s:gui0CDark = "000000"
-let s:gui0DDark = "000000"
-let s:gui0EDark = "000000"
-let s:gui0FDark = "000000"
+let s:gui09Dark = "cccccc"
+let s:gui0ADark = "cccccc"
+let s:gui0BDark = "00cc53"
+let s:gui0CDark = "cccccc"
+let s:gui0DDark = "cccccc"
+let s:gui0EDark = "cccccc"
+let s:gui0FDark = "cccccc"
 
 
 
