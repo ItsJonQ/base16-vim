@@ -35,14 +35,14 @@ let s:gui0F = "e06c75"
 
 " Light
 
-let s:gui08Dark = "aa2a35"
-let s:gui09Dark = "9a4c33"
-let s:gui0ADark = "ba8a2a"
-let s:gui0BDark = "5f8c3e"
-let s:gui0CDark = "2f7a84"
-let s:gui0DDark = "1d73ba"
-let s:gui0EDark = "8c35a6"
-let s:gui0FDark = "aa2a35"
+let s:gui08Dark = "af454d"
+let s:gui09Dark = "a25f4a"
+let s:gui0ADark = "be9648"
+let s:gui0BDark = "6f9653"
+let s:gui0CDark = "388c96"
+let s:gui0DDark = "3a82be"
+let s:gui0EDark = "974ead"
+let s:gui0FDark = "af454d"
 
 
 

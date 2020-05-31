@@ -17,13 +17,13 @@ let s:gui00 = "000000"
 let s:gui01 = "111111"
 
 let s:gui02 = "222222"
-let s:gui03 = "444444"
+let s:gui03 = "333333"
 let s:gui04 = "ffff00"
 let s:gui05 = "ffff00"
 let s:gui06 = "ffff00"
 let s:gui07 = "ffff00"
 
-let s:gui08 = "ffab40"
+let s:gui08 = "f55fff"
 let s:gui09 = "ffff00"
 let s:gui0A = "ffff00"
 let s:gui0B = "ffff00"
@@ -35,7 +35,7 @@ let s:gui0F = "ffff00"
 
 " Light
 
-let s:gui08Dark = "cc8933"
+let s:gui08Dark = "c44ccc"
 let s:gui09Dark = "cccc00"
 let s:gui0ADark = "cccc00"
 let s:gui0BDark = "cccc00"
