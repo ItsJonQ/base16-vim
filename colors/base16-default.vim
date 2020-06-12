@@ -1,5 +1,5 @@
 " Base16 Default (https://github.com/chriskempson/base16)
-" Scheme: Jon Q (https://jonquach.com)
+" Scheme: Chris Kempson (http://chriskempson.com)
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -14,35 +14,35 @@ endif
 " GUI color definitions
 
 let s:gui00 = "181818"
-let s:gui01 = "1d1d1d"
+let s:gui01 = "282828"
 
-let s:gui02 = "282828"
-let s:gui03 = "484848"
+let s:gui02 = "383838"
+let s:gui03 = "585858"
 let s:gui04 = "b8b8b8"
-let s:gui05 = "e8e8e8"
-let s:gui06 = "f2f2f2"
+let s:gui05 = "d8d8d8"
+let s:gui06 = "e8e8e8"
 let s:gui07 = "f8f8f8"
 
-let s:gui08 = "e06c75"
+let s:gui08 = "ab4642"
 let s:gui09 = "dc9656"
 let s:gui0A = "f7ca88"
 let s:gui0B = "a1b56c"
 let s:gui0C = "86c1b9"
 let s:gui0D = "7cafc2"
 let s:gui0E = "ba8baf"
-let s:gui0F = "e06c75"
+let s:gui0F = "a16946"
 
 
 " Light
 
-let s:gui08Dark = "b3565e"
+let s:gui08Dark = "893835"
 let s:gui09Dark = "b07845"
 let s:gui0ADark = "c6a26d"
 let s:gui0BDark = "819156"
 let s:gui0CDark = "6b9a94"
 let s:gui0DDark = "638c9b"
 let s:gui0EDark = "956f8c"
-let s:gui0FDark = "b3565e"
+let s:gui0FDark = "815438"
 
 
 
